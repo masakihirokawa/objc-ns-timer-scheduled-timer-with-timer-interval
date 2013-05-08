@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60028442173A3713004B1D2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60028441173A3713004B1D2B /* UIKit.framework */; };
+		60028444173A3713004B1D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60028443173A3713004B1D2B /* Foundation.framework */; };
+		60028446173A3713004B1D2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60028445173A3713004B1D2B /* CoreGraphics.framework */; };
+		6002844C173A3713004B1D2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6002844A173A3713004B1D2B /* InfoPlist.strings */; };
+		6002844E173A3713004B1D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002844D173A3713004B1D2B /* main.m */; };
+		60028452173A3713004B1D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60028451173A3713004B1D2B /* AppDelegate.m */; };
+		60028454173A3713004B1D2B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60028453173A3713004B1D2B /* Default.png */; };
+		60028456173A3713004B1D2B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60028455173A3713004B1D2B /* Default@2x.png */; };
+		60028458173A3713004B1D2B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60028457173A3713004B1D2B /* Default-568h@2x.png */; };
+		6002845B173A3713004B1D2B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60028459173A3713004B1D2B /* MainStoryboard_iPhone.storyboard */; };
+		6002845E173A3713004B1D2B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6002845C173A3713004B1D2B /* MainStoryboard_iPad.storyboard */; };
+		60028461173A3713004B1D2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60028460173A3713004B1D2B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6002843E173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTimerScheduledTimerWithTimeInterval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60028441173A3713004B1D2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60028443173A3713004B1D2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60028445173A3713004B1D2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60028449173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTimerScheduledTimerWithTimeInterval-Info.plist"; sourceTree = "<group>"; };
+		6002844B173A3713004B1D2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6002844D173A3713004B1D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6002844F173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimerScheduledTimerWithTimeInterval-Prefix.pch"; sourceTree = "<group>"; };
+		60028450173A3713004B1D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60028451173A3713004B1D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60028453173A3713004B1D2B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		60028455173A3713004B1D2B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		60028457173A3713004B1D2B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6002845A173A3713004B1D2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6002845D173A3713004B1D2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6002845F173A3713004B1D2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60028460173A3713004B1D2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6002843B173A3713004B1D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60028442173A3713004B1D2B /* UIKit.framework in Frameworks */,
+				60028444173A3713004B1D2B /* Foundation.framework in Frameworks */,
+				60028446173A3713004B1D2B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60028435173A3713004B1D2B = {
+			isa = PBXGroup;
+			children = (
+				60028447173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval */,
+				60028440173A3713004B1D2B /* Frameworks */,
+				6002843F173A3713004B1D2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6002843F173A3713004B1D2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6002843E173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60028440173A3713004B1D2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60028441173A3713004B1D2B /* UIKit.framework */,
+				60028443173A3713004B1D2B /* Foundation.framework */,
+				60028445173A3713004B1D2B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60028447173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				60028450173A3713004B1D2B /* AppDelegate.h */,
+				60028451173A3713004B1D2B /* AppDelegate.m */,
+				60028459173A3713004B1D2B /* MainStoryboard_iPhone.storyboard */,
+				6002845C173A3713004B1D2B /* MainStoryboard_iPad.storyboard */,
+				6002845F173A3713004B1D2B /* ViewController.h */,
+				60028460173A3713004B1D2B /* ViewController.m */,
+				60028448173A3713004B1D2B /* Supporting Files */,
+			);
+			path = NSTimerScheduledTimerWithTimeInterval;
+			sourceTree = "<group>";
+		};
+		60028448173A3713004B1D2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60028449173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval-Info.plist */,
+				6002844A173A3713004B1D2B /* InfoPlist.strings */,
+				6002844D173A3713004B1D2B /* main.m */,
+				6002844F173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval-Prefix.pch */,
+				60028453173A3713004B1D2B /* Default.png */,
+				60028455173A3713004B1D2B /* Default@2x.png */,
+				60028457173A3713004B1D2B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6002843D173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60028464173A3713004B1D2B /* Build configuration list for PBXNativeTarget "NSTimerScheduledTimerWithTimeInterval" */;
+			buildPhases = (
+				6002843A173A3713004B1D2B /* Sources */,
+				6002843B173A3713004B1D2B /* Frameworks */,
+				6002843C173A3713004B1D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTimerScheduledTimerWithTimeInterval;
+			productName = NSTimerScheduledTimerWithTimeInterval;
+			productReference = 6002843E173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60028436173A3713004B1D2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dolice;
+			};
+			buildConfigurationList = 60028439173A3713004B1D2B /* Build configuration list for PBXProject "NSTimerScheduledTimerWithTimeInterval" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60028435173A3713004B1D2B;
+			productRefGroup = 6002843F173A3713004B1D2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6002843D173A3713004B1D2B /* NSTimerScheduledTimerWithTimeInterval */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6002843C173A3713004B1D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6002844C173A3713004B1D2B /* InfoPlist.strings in Resources */,
+				60028454173A3713004B1D2B /* Default.png in Resources */,
+				60028456173A3713004B1D2B /* Default@2x.png in Resources */,
+				60028458173A3713004B1D2B /* Default-568h@2x.png in Resources */,
+				6002845B173A3713004B1D2B /* MainStoryboard_iPhone.storyboard in Resources */,
+				6002845E173A3713004B1D2B /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6002843A173A3713004B1D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6002844E173A3713004B1D2B /* main.m in Sources */,
+				60028452173A3713004B1D2B /* AppDelegate.m in Sources */,
+				60028461173A3713004B1D2B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6002844A173A3713004B1D2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6002844B173A3713004B1D2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60028459173A3713004B1D2B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6002845A173A3713004B1D2B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6002845C173A3713004B1D2B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6002845D173A3713004B1D2B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60028462173A3713004B1D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60028463173A3713004B1D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60028465173A3713004B1D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTimerScheduledTimerWithTimeInterval/NSTimerScheduledTimerWithTimeInterval-Prefix.pch";
+				INFOPLIST_FILE = "NSTimerScheduledTimerWithTimeInterval/NSTimerScheduledTimerWithTimeInterval-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60028466173A3713004B1D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTimerScheduledTimerWithTimeInterval/NSTimerScheduledTimerWithTimeInterval-Prefix.pch";
+				INFOPLIST_FILE = "NSTimerScheduledTimerWithTimeInterval/NSTimerScheduledTimerWithTimeInterval-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60028439173A3713004B1D2B /* Build configuration list for PBXProject "NSTimerScheduledTimerWithTimeInterval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60028462173A3713004B1D2B /* Debug */,
+				60028463173A3713004B1D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60028464173A3713004B1D2B /* Build configuration list for PBXNativeTarget "NSTimerScheduledTimerWithTimeInterval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60028465173A3713004B1D2B /* Debug */,
+				60028466173A3713004B1D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60028436173A3713004B1D2B /* Project object */;
+}
